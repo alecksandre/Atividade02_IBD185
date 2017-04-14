@@ -1,0 +1,14 @@
+Concessionaria é uma programa atividade para cadastramento
+de fabricante, tipo de modelo e Carros.
+
+-Faz cadastramento de Fabricantes
+-Faz consulta de fabricantes
+-Remove fabricantes
+
+-Faz cadastramento de Modelos de carros
+-Faz consulta de modelos
+-Remove modelos
+
+-Faz cadastramento de carros
+-Faz consulta de carros
+-Remove Carros
