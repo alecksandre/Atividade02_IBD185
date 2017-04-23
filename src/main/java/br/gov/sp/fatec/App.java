@@ -1,5 +1,7 @@
 package br.gov.sp.fatec;
 
+import java.util.ArrayList;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -42,6 +44,13 @@ public class App {
 		carro.setFabricante(fabricante);
 		carro.setModelo(modelo);
 		car.inserirCarro(carro);
+		
+		//Consulta Carros
+
+		for (Carro mostra: car.buscarTodos()){
+			System.out.println("Id: " + mostra.getId() + " Nome: "+ carro.getNome() +" Preço: " + carro.getPreco() 
+			+" Fabricante: " + carro.getFabricante().getNome() +" Modelo: "+ carro.getModelo().getTipo());
+		}
 		
    }
 }
